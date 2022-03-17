@@ -5,6 +5,13 @@ class PyScriptError extends Error {
     }
 }
 /**
+ * Python's equivalent to "console.log"
+ * @param value Value to print to console/terminal
+ */
+const print = function(value) {
+    console.log(value);
+}
+/**
  * Convert String to Upper Case
  * @returns String
  */
